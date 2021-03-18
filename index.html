@@ -4,10 +4,50 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="assets/css/style.css">
   <title>CS27 Testing Ground</title>
 </head>
 <body>
-  <h1>CS27 Testing Ground</h1>
+  <header>
+    <h1>CS27 Testing Ground</h1>
+  </header>
+  <section class="rule-non-text-content">
+    <h2>Module: Non-text Content</h2>
+    <div class="flex-h">
+      <div class="img">
+        <div>alt="Botswana Elephant"</div>
+        <img src="assets/images/botswana-elephant.jpg" alt="Botswana Elephant" />
+      </div>
+      <div class="img">
+        <div>alt="Most Expensive Christmas Tree"</div>
+        <img src="assets/images/christmas-tree.jpg" alt="Most Expensive Christmas Tree" />
+      </div>
+      <div class="img">
+        <div>alt="New Addition" (should fail)</div>
+        <img src="assets/images/mclaren.jpg" alt="New Addition" />
+      </div>
+      <div class="img">
+        <div>alt="Should You Buy A House During The Pandemic"</div>
+        <img src="assets/images/house.jpg" alt="Should You Buy A House During The Pandemic" />
+      </div>
+    </div>
+  </section>
+  <section class="rule-audio-control">
+    <h2>Module: Audio Control</h2>
+    <h5>Video with autoplay and controls</h5>
+    <div class="vid controls">
+      <video autoplay controls src="novid.mp4"></video>
+    </div>
+    <h5>Video with autoplay and no controls</h5>
+    <div class="vid no-controls">
+      <video autoplay src="novid.mp4"></video>
+    </div>
+  </section>
+  <section class="rule-language-of-page">
+    <h2>Module: Language of Page</h2>
+  </section>
+  <section class="rule-headings-and-labels">
+    <h2>Module: Headings and Labels</h2>
+  </section>
 </body>
 </html>
