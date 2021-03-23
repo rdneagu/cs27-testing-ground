@@ -12,42 +12,69 @@
     <h1>CS27 Testing Ground</h1>
   </header>
   <section class="rule-non-text-content">
-    <h2>Module: Non-text Content</h2>
+    <div class="h2">Module: Non-text Content</div>
     <div class="flex-h">
-      <div class="img">
+      <div class="img elephant_no-alt">
+        <div>No alt tag specified</div>
+        <img src="assets/images/botswana-elephant.jpg" />
+      </div>
+      <div class="img elephant">
         <div>alt="Botswana Elephant"</div>
         <img src="assets/images/botswana-elephant.jpg" alt="Botswana Elephant" />
       </div>
-      <div class="img">
+      <div class="img christmas_alt-empty">
+        <div>alt=""</div>
+        <img src="assets/images/christmas-tree.jpg" alt="" />
+      </div>
+      <div class="img christmas">
         <div>alt="Most Expensive Christmas Tree"</div>
         <img src="assets/images/christmas-tree.jpg" alt="Most Expensive Christmas Tree" />
       </div>
-      <div class="img">
+      <div class="img super-car">
         <div>alt="New Addition" (should fail)</div>
         <img src="assets/images/mclaren.jpg" alt="New Addition" />
       </div>
-      <div class="img">
+      <div class="img house">
         <div>alt="Should You Buy A House During The Pandemic"</div>
         <img src="assets/images/house.jpg" alt="Should You Buy A House During The Pandemic" />
       </div>
     </div>
   </section>
   <section class="rule-audio-control">
-    <h2>Module: Audio Control</h2>
-    <h5>Video with autoplay and controls</h5>
-    <div class="vid controls">
-      <video autoplay controls src="novid.mp4"></video>
+    <div class="h2">Module: Audio Control</div>
+    <div class="h5">Video with autoplay and controls</div>
+    <div>
+      <div>
+        <video class="vid with-controls" autoplay controls src="controls.mp4"></video>
+      </div>
     </div>
-    <h5>Video with autoplay and no controls</h5>
-    <div class="vid no-controls">
-      <video autoplay src="novid.mp4"></video>
+    <div class="h5">Video with custom controls</div>
+    <div>
+      <div>
+        <video class="vid with-custom-controls" autoplay src="controls.mp4"></video>
+      </div>
+      <div class="controls"></div>
+    </div>
+    <div class="h5">Video with autoplay and no controls</div>
+    <div>
+      <div>
+        <video class="vid without-controls"autoplay src="nocontrols.mp4"></video>
+      </div>
     </div>
   </section>
   <section class="rule-language-of-page">
     <h2>Module: Language of Page</h2>
+    <div>Lorem ipsum: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam massa urna, vestibulum ac consequat eu, vulputate non erat. Morbi quis mattis sapien.</div>
+    <div>French: Je m’appelle Marie. Ma famille se compose de quatre personnes. Mon mari et moi avons deux enfants, une fille de sept ans et un garçon de trois ans.</div>
   </section>
   <section class="rule-headings-and-labels">
-    <h2>Module: Headings and Labels</h2>
+    <div>Module: Headings and Labels</div>
+    <h3>Land Vehicle</h3>
+    <div>Land vehicles are classified broadly by what is used to apply steering and drive forces against the ground: wheeled, tracked, railed or skied. ISO 3833-1977 is the standard, also internationally used in legislation, for road vehicles types, terms and definitions</div>
+    <h3>Energy source</h3>
+    <p>It is essential that a vehicle have a source of energy to drive it. Energy can be extracted from external sources, as in the cases of a sailboat, a solar-powered car, or an electric streetcar that uses overhead lines. Energy can also be stored, provided it can be converted on demand and the storing medium's energy density and power density are sufficient to meet the vehicle's needs.</p>
+    <h3>Motors and engines</h3>
+    <p>Most motor vehicles have internal combustion engines. They are fairly cheap, easy to maintain, reliable, safe and small. Since these engines burn fuel, they have long ranges but pollute the environment. A related engine is the external combustion engine. An example of this is the steam engine. Aside from fuel, steam engines also need water, making them impractical for some purposes. Steam engines also need time to warm up, whereas IC engines can usually run right after being started, although this may not be recommended in cold conditions. Steam engines burning coal release sulfur into the air, causing harmful acid rain</p>
   </section>
 </body>
 </html>
